@@ -5,7 +5,7 @@ set cursorline
 hi CursorLine term=bold cterm=bold ctermbg=236
 hi CursorLineNr term=bold cterm=bold ctermbg=236
 set nocompatible
-set tabstop=4
+set tabstop=2 shiftwidth=2 expandtab
 set autoindent
 set ignorecase
 set smartcase
