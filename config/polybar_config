@@ -1,7 +1,5 @@
 [global/wm]
 include-file = ~/.config/polybar/colors.ini
-include-file = ~/.config/polybar/modules.ini
-include-file = ~/.config/polybar/powerline-for-polybar.config
 
 [bar/main]
 ; default
