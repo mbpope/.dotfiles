@@ -10,12 +10,13 @@
     - [git submodule update --init --recursive, Installling submodules]
 
 - link:
-    ~/.config/i3/config: config/i3
-    ~/.config/i3status/config: config/i3status
-    ~/.config/polybar/config.ini: config/polybar_config
-    ~/.config/polybar/colors.ini: config/polybar_colors
-    ~/.config/picom/config: config/picom
+    ~/.config/i3/config: dotconf/config/i3
+    ~/.config/i3status/config: dotconf/config/i3status
+    ~/.config/picom/config: dotconf/config/picom
+    ~/.config/polybar:
+        glob: true
+        path: dotconf/config/polybar/*
     ~/:
         glob: true
-        path: dotconf/*
+        path: dotconf/home/*
         prefix: '.'
