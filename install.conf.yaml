@@ -39,10 +39,9 @@
     - chromium
     - imagemagick
     - xorg-server
-    - xorg-apps
     - xorg-xinit
     - numlockx
-    - i3
+    - i3-gaps
     - polybar
     - picom
     - noto-fonts
