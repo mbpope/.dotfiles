@@ -20,3 +20,11 @@
         glob: true
         path: dotconf/home/*
         prefix: '.'
+
+- create:
+    - ~/repos
+    - ~/ref
+    - ~/projects
+    - ~/Downloads
+    - ~/Documents
+    - ~/.ssh
