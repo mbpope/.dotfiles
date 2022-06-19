@@ -28,3 +28,13 @@
     - ~/Downloads
     - ~/Documents
     - ~/.ssh
+
+- pacman:
+    - vim
+    - git
+    - gcc
+    - vlc
+    - gimp
+    - firefox
+    - chromium
+    - imagemagick
