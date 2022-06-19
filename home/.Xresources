@@ -1,0 +1,74 @@
+!! Colorscheme: Kanagawa, by Tommaso Laurenzi
+!! https://github.com/rebelot/kanagawa.nvim
+
+#define base00 #1F1F28
+#define base01 #2A2A37
+#define base02 #223249
+#define base03 #727169
+#define base04 #363646
+#define base05 #DCD7BA
+#define base06 #938AA9
+#define base07 #c8c093
+#define base08 #C34043
+#define base09 #FFA066
+#define base0A #DCA561
+#define base0B #98BB6C
+#define base0C #7FB4CA
+#define base0D #575994
+#define base0E #957FB8
+#define base0F #D27E99
+
+! Urxvt colors
+
+! special
+URxvt.foreground: base05
+URxvt.background: base00
+URxvt.cursorColor:base0E
+
+! black
+URxvt.color0: base00
+URxvt.color8: base03
+
+! red
+URxvt.color1: base08
+URxvt.color9: base08
+
+! green
+URxvt.color2: base0B
+URxvt.color10:base0B
+
+! yellow
+URxvt.color3: base0A
+URxvt.color11:base0A
+
+! blue
+URxvt.color4: base0D
+URxvt.color12:base0D
+
+! magenta
+URxvt.color5: base0E
+URxvt.color13:base0E
+! cyan
+URxvt.color6: base0C
+URxvt.color14:base0C
+
+! white
+URxvt.color7: base05
+URxvt.color15:base07
+
+
+!! Fonts
+URxvt.font: xft:Source Code Pro:style=Regular:pixelsize=16:antialias=true
+URxvt.boldFont: xft:Source Code Pro:style=Bold:pixelsize=16:antialias=true
+URxvt.italicFont: xft:Source Code Pro:style=Italic:pixelsize=16:antialias=true
+URxvt.boldItalicFont: xft:Source Code Pro:style=Bold Italic:pixelsize=16:antialias=true
+URxvt.letterSpace: 0
+
+!! Appearance
+URxvt.cursorBlink: true
+URxvt.scrollColor: #474747
+URxvt.scrollBar_floating: true
+URxvt.scrollBar_right: true
+URxvt.scrollstyle: plain
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
