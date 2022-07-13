@@ -237,7 +237,7 @@ mode "$mode_launcher" {
     bindsym Escape mode "default"
     bindsym Return mode "default"
 }
-bindsym Print exec import -window root png:- | xclip -selection clipboard -t image/png
+bindsym Print exec flameshot gui
 bindsym $mod+Print exec \
     import -window $( \
         i3-msg -t get_tree | \
