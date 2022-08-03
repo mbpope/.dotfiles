@@ -47,5 +47,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  done
  unset f
 fi
-
+sleep 2
+autorandr --change work
 exec i3

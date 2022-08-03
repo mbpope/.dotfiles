@@ -220,14 +220,14 @@ bindsym XF86MonBrightnessDown exec xbacklight -5
 # Start monitor setup compositor, polybar, and wallpaper
 exec --no-startup-id picom
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id feh --bg-scale /usr/share/pixmaps/kanagawa.jpg
+exec --no-startup-id nitrogen --restore
 
 # Always open firefox in workspace 2 and vscodium in workspace 3
 assign [class="firefox"] 2
 assign [class="codium"] 3
 
 # When there's only one window, hide borders
-hide_edge_borders smart
+# hide_edge_borders smart
 
 # Screen lock hotkey is MOD+p
 bindsym $mod+p exec --no-startup-id "import -window root ~/tmp/lock_screen.png; convert ~/tmp/lock_screen.png -blur '0x3' ~/tmp/lock_screen.png; i3lock -f -e -i ~/tmp/lock_screen.png"

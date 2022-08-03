@@ -12,7 +12,7 @@
 - link:
     ~/.config/i3/config: dotconf/config/i3
     ~/.config/i3status/config: dotconf/config/i3status
-    ~/.config/picom/config: dotconf/config/picom
+    ~/.config/picom/picom.conf: dotconf/config/picom
     ~/.config/polybar:
         glob: true
         path: dotconf/config/polybar/*
